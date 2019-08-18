@@ -1,29 +1,31 @@
 {
-  "name": "mongodb-all-the-news-that-s-fit-to-scrape",
+  "name": "scrapingnews",
   "version": "1.0.0",
-  "description": "mongoDB",
-  "main": "index.js",
+  "description": "### Overview",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rupali8086/MongoDB-All-the-News-That-s-Fit-to-Scrape.git"
+    "url": "git+https://github.com/yubel26/scrapingnews.git"
   },
-  "author": "Rupali",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rupali8086/MongoDB-All-the-News-That-s-Fit-to-Scrape/issues"
+    "url": "https://github.com/yubel26/scrapingnews/issues"
   },
-  "homepage": "https://github.com/rupali8086/MongoDB-All-the-News-That-s-Fit-to-Scrape#readme",
+  "homepage": "https://github.com/yubel26/scrapingnews#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
     "mongoose": "^5.6.9",
-    "morgan": "^1.9.0",
-    "request": "^2.85.0"
+    "morgan": "^1.9.1",
+    "node": "^12.8.1",
+    "request": "^2.88.0"
   }
 }
